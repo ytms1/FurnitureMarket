@@ -15,7 +15,7 @@ a {
 .btn-primary {
     background-color: #373737;
     color: #fff;
-    padding: 13px 17px;
+    padding: 13px 17px !important;
     border-radius: 5px;
     font: 400 18px/normal 'Roboto', Helvetica, Arial, sans-serif;
 }
@@ -59,6 +59,86 @@ header {
 .about-section {
     background-image: url('./img/background_main.png');
     background-size: cover;    
+    height: 100%;
+    display: flex;
+}
+
+.about-section-left {
     height: 100vh;
-    padding-bottom: 170px;
+    width: 309px;
+    height: 930px;
+}
+
+.about-section-right {
+    display: flex;
+    flex-direction: column;
+    height: 930px;
+}
+
+.about-section-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    background: linear-gradient(112.8deg, rgba(207, 207, 207, 0.26) 0%, rgba(207, 207, 207, 0.06) 92.87%);
+    backdrop-filter: blur(15px);
+    height: 850px;
+    padding-left: 55px;
+}
+
+.about-section-square {
+    background-color: #000;
+    width: 309px;
+    height: 262px;
+}
+
+
+.about-section-right__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 81.98vw;
+    height: 339px;
+    margin-top: 250px;
+    padding: 41px 0px 41px 0px;
+    background: linear-gradient(112.8deg, rgba(207, 207, 207, 0.26) 0%, rgba(207, 207, 207, 0.06) 92.87%);
+    backdrop-filter: blur(15px);
+}
+
+.about-section-title {
+    font: 400 36px/45px 'Revalia', Helvetica, Arial, sans-serif;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.about-section-subtitle {
+    font: 400 20px/24px 'Roboto', Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.about-section-statistics {
+    display: flex;
+    gap: 80px;
+    padding-left: 75px;
+    text-align: center;
+    margin-top: 415px;
+}
+
+.about-section-statistics__item-title {
+    font: 700 40px/47px 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.about-section-statistics__item-subtitle {
+    font: 400 20px/24px 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.about-section-statistics__item-subtitle:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
