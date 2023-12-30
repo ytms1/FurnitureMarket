@@ -6,30 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SQ R3</title>
     <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
 </head>
 
 <body>
     <header>
         <span class="header-logo">SQ R3</span>
         <ul class="header-list">
-            <div class="header-list__item"><a href="#">Home</a></div>
-            <div class="header-list__item"><a href="#">About</a></div>
-            <div class="header-list__item"><a href="#">Service</a></div>
-            <div class="header-list__item"><a href="#">Furniture</a></div>
-            <div class="header-list__item"><button class="btn-primary">Order Now</button></div>
-            <div class="header-list__item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+            <li class="header-list__item"><a href="#">Home</a></li>
+            <li class="header-list__item"><a href="#">About</a></li>
+            <li class="header-list__item"><a href="#">Service</a><liv>
+            <li class="header-list__item"><a href="#">Furniture</a></li>
+            <li class="header-list__item"><button class="btn-primary">Order Now</button></li>
+            <li class="header-list__item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                     viewBox="0 0 32 32" fill="none">
                     <path
                         d="M14.3333 27.6667C21.6971 27.6667 27.6666 21.6971 27.6666 14.3333C27.6666 6.96954 21.6971 1 14.3333 1C6.96953 1 1 6.96954 1 14.3333C1 21.6971 6.96953 27.6667 14.3333 27.6667Z"
                         stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M31 31L23.75 23.75" stroke="black" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" />
-                </svg></a></div>
+                </svg></a></li>
         </ul>
     </header>
-    <section class="about-section main-section">
+    <section id="home" class="about-section" style="margin-bottom: 300px;">
         <div class="about-section-left">
             <div class="about-section-contacts">
                 <img src="./img/facebook.png" alt="#" style="width: 16px; height: 30px;">
@@ -60,6 +59,265 @@
             </div>
         </div>
     </section>
+    <section id="about-us" class="about-us main-section">
+        <div class="section-titles">
+            <h2 class="section-title">Learn about us</h2>
+            <h3 class="section-undertitle-line">It’s short title here</h3>
+        </div>
+        <div class="about-us__section-wrapper">
+            <div class="about-us-left-section">
+                <img src="./img/about-us.png" alt="#">
+            </div>
+            <div class="about-us-right-section">
+                <div class="about-us-info">
+                    <p class="about-us-text">Lorem Ipsum has been the industry's standard dummy text ever to since the 1500s, type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                    <button class="btn-primary">More about us</button>
+                </div>
+                <div class="about-us-icons">
+                    <img src="./img/amazon.png" alt="#">
+                    <img src="./img/alibaba.png" alt="#">
+                    <img src="./img/circles.png" alt="#">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="service" class="about-service main-section">
+        <div class="section-titles">
+            <h2 class="section-title">We provide that service</h2>
+            <h3 class="section-undertitle-line">It is a long established fact that a reader <br> will be distracted by the service.</h3>
+        </div>
+        <div class="service-cards-wrapper container">
+            <div class="service-card card-active">
+                <img src="./img/delivery.png" alt="#" class="service-card__img">
+                <div class="service-card__title">Free Delevary</div>
+                <div class="service-card__description">It is a long established fact that a <br> reader will be the service.</div>
+            </div>
+            <div class="service-card">
+                <img src="./img/guarante.png" alt="#" class="service-card__img">
+                <div class="service-card__title">100% Guarnatee</div>
+                <div class="service-card__description">It is a long established fact that a <br> reader will be the service.</div>
+            </div>
+            <div class="service-card">
+                <img src="./img/quality.png" alt="#" class="service-card__img">
+                <div class="service-card__title">Best Quality</div>
+                <div class="service-card__description">It is a long established fact that a <br> reader will be the service.</div>
+            </div>
+        </div>
+    </section>
+    <section id="furniture" class="shop-section main-section">
+        <div class="shop-titles">
+            <h2 class="shop-title">Our Furniture</h2>
+            <h3 class="shop-undertitle">It is a long established fact that a reader <br> will be distracted by the service.</h3>
+        </div>
+        <div class="shop-navbar-wrapper container">
+            <div class="shop-navbar-searcher">Search a furniture <span class="material-symbols-outlined btn-primary" style="padding: 16px !important; margin-left: 43px; font-size: 20px !important;">search</span></div>
+            <ul class="shop-navbar-items">
+                <li class="shop-navbar__item-active">All</li>
+                <li class="shop-navbar__item">Chair</li>
+                <li class="shop-navbar__item">Table</li>
+                <li class="shop-navbar__item">Bed</li>
+                <li class="shop-navbar__item">Sofa</li>
+                <li class="shop-navbar__item">Wardrobe</li>
+                <li class="shop-navbar__item">Almirah</li>
+                <li class="shop-navbar__item">Dimple</li>
+                <li class="shop-navbar__item">Rack</li>
+                <li class="shop-navbar__item">Stand</li>
+            </ul>
+        </div>
+        <ul class="product-list container">
+            <li class="product-list__item product-active">
+                <span><img src="./img/furniture1.png" alt="#"></span>
+                <div class="product-list-wrapper">
+                    <div class="product-list__info">
+                        <span>Furniture Name</span>
+                        <p>$ 250</p>
+                    </div>
+                    <div class="product-list__item-decription">
+                        It is a long estiabs lished fact that a reader will be the service.
+                    </div>
+                    <button class="btn-primary">Order Now</button>
+                </div>
+            </li>
+            <li class="product-list__item">
+                <span><img src="./img/furniture2.png" alt="#"></span>
+                <div class="product-list-wrapper">
+                    <div class="product-list__info">
+                        <span>Furniture Name</span>
+                        <p>$ 250</p>
+                    </div>
+                    <div class="product-list__item-decription">
+                        It is a long estiabs lished fact that a reader will be the service.
+                    </div>
+                    <button class="btn-primary">Order Now</button>
+                </div>
+            </li>
+            <li class="product-list__item">
+                <span><img src="./img/furniture3.png" alt="#"></span>
+                <div class="product-list-wrapper">
+                    <div class="product-list__info">
+                        <span>Furniture Name</span>
+                        <p>$ 250</p>
+                    </div>
+                    <div class="product-list__item-decription">
+                        It is a long estiabs lished fact that a reader will be the service.
+                    </div>
+                    <button class="btn-primary">Order Now</button>
+                </div>
+            </li>
+            <li class="product-list__item">
+                <span><img src="./img/furniture4.png" alt="#"></span>
+                <div class="product-list-wrapper">
+                    <div class="product-list__info">
+                        <span>Furniture Name</span>
+                        <p>$ 250</p>
+                    </div>
+                    <div class="product-list__item-decription">
+                        It is a long estiabs lished fact that a reader will be the service.
+                    </div>
+                    <button class="btn-primary">Order Now</button>
+                </div>
+            </li>
+            <li class="product-list__item">
+                <span><img src="./img/furniture5.png" alt="#"></span>
+                <div class="product-list-wrapper">
+                    <div class="product-list__info">
+                        <span>Furniture Name</span>
+                        <p>$ 250</p>
+                    </div>
+                    <div class="product-list__item-decription">
+                        It is a long estiabs lished fact that a reader will be the service.
+                    </div>
+                    <button class="btn-primary">Order Now</button>
+                </div>
+            </li>
+            <li class="product-list__item">
+                <span><img src="./img/furniture6.png" alt="#"></span>
+                <div class="product-list-wrapper">
+                    <div class="product-list__info">
+                        <span>Furniture Name</span>
+                        <p>$ 250</p>
+                    </div>
+                    <div class="product-list__item-decription">
+                        It is a long estiabs lished fact that a reader will be the service.
+                    </div>
+                    <button class="btn-primary">Order Now</button>
+                </div>
+            </li>
+            <li class="product-list__item">
+                <span><img src="./img/furniture7.png" alt="#"></span>
+                <div class="product-list-wrapper">
+                    <div class="product-list__info">
+                        <span>Furniture Name</span>
+                        <p>$ 250</p>
+                    </div>
+                    <div class="product-list__item-decription">
+                        It is a long estiabs lished fact that a reader will be the service.
+                    </div>
+                    <button class="btn-primary">Order Now</button>
+                </div>
+            </li>
+            <li class="product-list__item">
+                <span><img src="./img/furniture8.png" alt="#"></span>
+                <div class="product-list-wrapper">
+                    <div class="product-list__info">
+                        <span>Furniture Name</span>
+                        <p>$ 250</p>
+                    </div>
+                    <div class="product-list__item-decription">
+                        It is a long estiabs lished fact that a reader will be the service.
+                    </div>
+                    <button class="btn-primary">Order Now</button>
+                </div>
+            </li>
+        </ul>
+        <span class="product-list__btn"><button class="btn-primary">View All</button></span>
+    </section>
+    <section class="feedback-section main-section">
+        <div class="section-titles">
+            <h2 class="section-title">What say clients about us</h2>
+            <h3 class="section-undertitle-line">It is a long established fact that a reader <br>will be distracted by the service.</h3>
+        </div>
+        <ul class="feedback-list container">
+            <span class="feedback-list__arrow material-symbols-outlined">navigate_before</span>
+            <li class="feedback-list__item">
+                <span><img src="./img/feedbacker1.png" alt="#"></span>
+                <div class="feedback-info">
+                    <h2 class="feedback-info__name">Mr. Jone Ambrose</h2>
+                    <h3 class="feedback-info__date">20 - 07 - 21</h3>
+                    <p class="feedback-info__comment"><b>“</b>Lorem Ipsum has been the industry by standard dummy text ever to since the 1500s, it’s  type and scrambled it to make a type specimen book. It’s has survived not only five.<b>”</b></p>
+                    <ul class="feedback-info__rate">
+                        <li class="feedback-info__rate-item"><img src="./img/vector.svg" alt="#"></li>
+                        <li class="feedback-info__rate-item"><img src="./img/vector.svg" alt="#"></li>
+                        <li class="feedback-info__rate-item"><img src="./img/vector.svg" alt="#"></li>
+                        <li class="feedback-info__rate-item"><img src="./img/vector.svg" alt="#"></li>
+                        <li class="feedback-info__rate-item"><img src="./img/vector.svg" alt="#"></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="feedback-list__item">
+                <span><img src="./img/feedbacker2.png" alt="#"></span>
+                <div class="feedback-info">
+                    <h2 class="feedback-info__name">Mr. Jone Ambrose</h2>
+                    <h3 class="feedback-info__date">20 - 07 - 21</h3>
+                    <p class="feedback-info__comment"><b>“</b>Lorem Ipsum has been the industry by standard dummy text ever to since the 1500s, it’s  type and scrambled it to make a type specimen book. It’s has survived not only five.<b>”</b></p>
+                    <ul class="feedback-info__rate">
+                        <li class="feedback-info__rate-item"><img src="./img/vector.svg" alt="#"></li>
+                        <li class="feedback-info__rate-item"><img src="./img/vector.svg" alt="#"></li>
+                        <li class="feedback-info__rate-item"><img src="./img/vector.svg" alt="#"></li>
+                        <li class="feedback-info__rate-item"><img src="./img/vector.svg" alt="#"></li>
+                        <li class="feedback-info__rate-item"><img src="./img/vector.svg" alt="#"></li>
+                    </ul>
+                </div>
+            </li>
+            <span class="feedback-list__arrow material-symbols-outlined">navigate_next</span>
+        </ul>
+    </section>
+    <footer>
+        <div class="footer-wrapper">
+            <section class="footer-contacts">
+                <h2 class="footer-contacts__name">SQ R3</h2>
+                <div class="footer-contacts__phone" style="margin-bottom: 11px;">
+                    <span class="material-symbols-outlined">call</span>
+                    <p>+8801760-007083</p>
+                </div>
+                <div class="footer-contacts__mail" style="margin-bottom: 20px;">
+                    <span class="material-symbols-outlined">mail</span>
+                    <p>uiuxmdomith@gmail.com</p>
+                </div>
+                <ul class="footer-contacts__social">
+                    <li class="footer-contacts__social-item"><a href="#"><img src="./img/facebook.png" alt="#"></a></li>
+                    <li class="footer-contacts__social-item"><a href="#"><img src="./img/instageam.png" alt="#"></a></li>
+                    <li class="footer-contacts__social-item"><a href="#"><img src="./img/twitter.png" alt="#"></a></li>
+                    <li class="footer-contacts__social-item"><a href="#"><img src="./img/in.png" alt="#"></a></li>
+                </ul>
+            </section>
+            <section class="footer-links footer-section">
+                <h2 class="footer-name">Usefull Links</h2>
+                <ul class="footer-list">
+                    <li class="footer-list__item"><a href="#home">Home</a></li>
+                    <li class="footer-list__item"><a href="#about-us">About Us</a></li>
+                    <li class="footer-list__item"><a href="#service">Service</a></li>
+                    <li class="footer-list__item"><a href="#furniture">Furniture</a></li>
+                </ul>
+            </section>
+            <section class="footer-faq footer-section">
+                <h2 class="footer-name">FAQ</h2>
+                <ul class="footer-list">
+                    <li class="footer-list__item"><a href="#">Lorem Ipsum Dolar</a></li>
+                    <li class="footer-list__item"><a href="#">Lorem Ipsum Dolar</a></li>
+                    <li class="footer-list__item"><a href="#">Lorem Ipsum Dolar</a></li>
+                    <li class="footer-list__item"><a href="#">Lorem Ipsum Dolar</a></li>
+                </ul>
+            </section>
+            <section class="footer-newsletter footer-section">
+                <h2 class="footer-name">Newsletter</h2>
+                <div class="newsletter-input">
+                    <input type="text" placeholder="Enter your mail">
+                    <button>Send</button>
+                </div>
+                <button>Download App</button>
+            </section>
+        </div>
+    </footer>
 </body>
-
 </html>
